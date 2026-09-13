@@ -1,0 +1,154 @@
+/* Landing Page Stylesheet */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: 'Roboto';
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px 100px;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.links {
+    display: flex;
+    gap: 16px;
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex;
+    padding: 48px 100px;
+}
+
+.section1-text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.section1-main-text {
+    color: #F9FAF8;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.section1-sub-text {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.section1-button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #3882F6;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
+
+.section2 {
+    padding: 32px 100px;
+}
+
+.section2-header {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.items  {
+    display: flex;
+    justify-content: center;
+    gap: 32px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.info-image {
+    border-radius: 10px;
+    border: 2px solid #3882F6;
+}
+
+.info-text {
+    color: grey;
+    text-align: center;
+    width: 104px;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    padding: 64px 100px;
+}
+
+.quote {
+    color: #1F2937;
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+}
+
+.quote-author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 100px;
+}
+
+.section4 {
+    background-color: #3882F6;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 48px 100px;
+    padding: 32px;
+}
+
+.section4-header {
+    color: #F9FAF8;
+    font-weight: bold;
+}
+
+.section4-text {
+    color: #F9FAF8;
+    font-weight: 200;
+}
+
+.section4-button {
+    cursor: pointer;
+    border-radius: 8px;
+    border: 2px solid #F9FAF8;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 16px;
+}
