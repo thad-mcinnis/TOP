@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JS Basics</title>
-    <script src="javascript.js"></script>
+    <!--  <script src="javascript.js"></script> -->
 </head>
 <body>
     <h1>JS Basics</h1>
+    <script>
+        function add7(x) {
+            return x + 7;
+        }
+
+        function multiply(a,b) {
+            return a * b;
+        }
+
+        function capitalize(word) {
+            let lower = word.toLowerCase();
+            let first = lower[0].toUpperCase();
+            let capital = lower.replace(lower[0], first);
+            return capital;
+        }
+
+        function lastLetter(string) {
+            return string.at(-1);
+        }
+
+    </script>
 </body>
 </html>
